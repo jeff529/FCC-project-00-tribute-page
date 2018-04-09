@@ -1,0 +1,79 @@
+/*
+ font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif; 
+*/
+
+
+
+
+:root {
+
+/* --body-background-color: */
+
+
+}
+
+body {
+    background-image: url(/images/background.png);
+}
+
+
+
+
+#main {
+    background-color: rgb(139, 167, 121);
+    margin: 130px;
+    padding: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 625;
+    
+}
+
+#title {
+  text-align: center;
+    margin: 110px 0 110px 0;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 45px;
+
+}
+
+#tribute-info {
+    
+}
+
+
+.webmaster-info {
+    border: solid black 5px;
+    margin: 15px;
+    background-color:rgb(173, 169, 169);
+}
+
+.webmaster-info h3 {
+    text-align: center;
+}
+
+.webmaster-info ul {
+    margin-left: 200px;
+}
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.img-div {
+    text-align: center;
+}
+
+image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
