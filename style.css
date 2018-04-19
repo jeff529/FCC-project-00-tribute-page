@@ -1,29 +1,22 @@
-
 body {
-    background-image: url(/images/background.png);
+    background-color: rgb(226, 224, 224);
 }
 
-
-
-
 #main {
-    background-color: rgba(53, 51, 51, 0.6);
+    background-color: rgb(177, 180, 180);
     margin: 10px;
     padding: 20px;
     font-family: 'Playfair Display', serif;
-    font-weight: 625;
+    color: #080808;
     border-radius: 20px;
 }
 
 #title {
-  text-align: center;
-    margin: 110px 0 110px 0;
-    font-family: 'Roboto', sans-serif;  
+    text-align: center;
+    margin: 45px 0 60px 0;
+    font-family: 'Roboto', sans-serif;
     font-size: 45px;
-    
-
 }
-
 
 .img-div {
     text-align: center;
@@ -35,20 +28,16 @@ body {
     margin: 0 auto;
     display: block;
     height: auto;
-    width: 600px;    
 }
-
 
 #img-caption {
-    margin-top: 15px;
+    margin-top: 35px;
 }
-
 
 hr {
     border: solid 2px black;
-    margin: 25px;
-    }
-    
+    margin: 10px;
+}
 
 #tribute-info {
     text-align: justify;
@@ -61,12 +50,9 @@ blockquote {
     font-style: italic;
 }
 
-
 #timeline {
     padding: 25px;
 }
-
-
 
 #tribute-link {
     margin-top: 75px;
@@ -77,43 +63,26 @@ blockquote {
     color: black;
 }
 
-
 footer {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 35px;
 }
 
-
-/* Trying to make it responsive */
+/* Making it responsive on larger screens */
 
 @media only screen and (min-width:768px) {
-
     #main {
-        margin: 130px;
+        margin: 50px;
         padding: 85px;
         box-shadow: 38px 38px 11px black;
-
-
     }
-
-
-
     .container {
-        display: grid; 
+        display: grid;
         width: 100%;
         grid-template-columns: 3fr 2fr;
         grid-gap: 25px;
     }
-    
-
-
-
-
-    
 }
-
-
-
-
